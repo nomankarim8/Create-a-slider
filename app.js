@@ -11,7 +11,7 @@ let timeDom = document.querySelector('.carousel .time');
 thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
 let timeRunning = 3000;
 let timeAutoNext = 7000;
-
+// next dom created by whomi
 nextDom.onclick = function(){
     showSlider('next');    
 }
